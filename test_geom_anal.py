@@ -12,7 +12,9 @@ def test_calculate_distance():
 	observed = ga.calculate_distance(coord1, coord2)
 	
 	assert observed == 2
-	
+
+
+
 def test_bond_check_false():
 	"""A test for the bond_check function."""
 	bond_length = 3.0
